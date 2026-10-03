@@ -1,0 +1,14 @@
+*.mp4
+*.MP4
+*.wav
+*.mp3
+*.m4a
+*.aac
+original.*
+node_modules/
+.venv/
+__pycache__/
+build/
+.DS_Store
+.op55-*
+!.op55-task

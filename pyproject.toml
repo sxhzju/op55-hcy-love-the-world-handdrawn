@@ -1,0 +1,12 @@
+[project]
+name = "op55-hua-chenyu-lyric-video"
+version = "1.0.0"
+description = "Hand-drawn paper style 3:4 lyric video renderer (Pillow + NumPy -> ffmpeg)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "pillow>=10.0",
+]
+
+[dependency-groups]
+dev = ["fonttools>=4.50"]
